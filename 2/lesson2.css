@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font: 16px 'Open Sans', sans-serif;
+}
+
+
+/* DISPLAY **************************************************************/
+/* .block {
+    border: 5px solid red;
+    box-sizing: border-box;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.block p {
+    margin: 0;
+    background-color: coral;
+    color: white;
+} */
+
+/*.menu li {
+    background-color: #bd4d23;
+    color: white;
+    padding: 10px 30px;
+    margin-bottom: 5px;
+    display: inline;
+}*/
+
+/* 
+.square-block {
+    text-align: center;
+}
+
+.square {
+    width: 300px;
+    height: 300px;
+    background-color: #bd4d23;
+    border-radius: 5px;
+    display: inline-block;
+}  */
+
+/* Facebook button */
+/* .fb {
+    border: 7px solid red;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    background: #789;
+    color: #fff;
+} */
+
+/* MARGIN & PADDING *************************************************/
+/* .text {
+    width: 300px;
+    background: #789;
+    color: #fff;
+    margin: 30px 50px 70px 90px;
+    padding: 10px 20px 30px 40px;
+} */
+
+/* BORDER **************************************************************/
+/*.img-block {
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    border: 10px solid coral;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img-block > img {
+    margin-left: -50px;
+    width: 150%;
+}*/
+
+
+/* POSITION ************************************************************/
+/* 
+.main{
+    width: 500px;
+    height: 500px;
+    background-color: #1c4dcb;
+    margin: 100px auto;
+    position: relative;
+}
+
+
+
+.content img{
+    width: 200px;
+    position: absolute;
+    top:100px;
+    right: 100px;
+}
+
+body {
+    height: 2000px;
+}
+.relative {
+    width: 250px;
+    height: 250px;
+    background: #789;
+}
+
+.relative {
+    position: fixed;
+}
+
+.relative {
+    position: relative;
+    top: 50px;
+    left: 200px;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background: coral;
+} */
+
+/*.block {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+*/
+/*.block {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}*/
+
+/*.block {*/
+    /*position: absolute;*/
+    /*top: calc(50% - 100px);*/
+    /*top : 50%;*/
+    /*left: calc(50% - 100px);*/
+/*}*/
+/**/
+/*.block {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+body {
+    height: 1500px;
+    margin: 0;
+}*/
+    
+
+/* FLOAT ****************************************************************/
+/*.post {
+    border: 1px solid #789;
+    background: #fff;
+    width: 100%;
+}
+
+.post > div {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #789;
+}
+
+.img-block1 {
+    float: left;
+}
+
+.img-block2 {
+    float: right;
+}
+
+.post > p {
+    clear: both;
+}*/
+
+
+/*.post2 {
+    display: table;
+    background: #fff;
+    border: 2px solid coral;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.post2 > img {
+    float: left;
+    margin: 10px;
+}
+
+.post3 {
+    display: table;
+    background: #fff;
+    border: 2px solid coral;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.post3 > img {
+    float: right;
+    margin: 10px;
+}*/
+
+/* Пример адаптивного меню */
+/*ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 20px;
+    background: #789;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    width: calc(100 % / 4 - 20px);
+    height: 40px;
+    line-height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    background: #303740;
+    color: #fff;
+}
+
+li:last-child {
+    margin-right: 0;
+}*/
+
+/* Пример абсолютного позиционирования в рамках родителя */
+/*.img-block {
+    border: #789;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+}
+.img-block > img {
+    width: 100%;
+    height: 100%;
+}
+.img-block > a {
+    display: inline-block;
+    background: coral;
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}*/
+
+
+/* TEXT-ALIGN **********************************************************/
+/*.text-block {*/
+    /*text-align: center;*/
+/*}*/
+
+/*.text-block p:nth-child(1) {*/
+    /*text-align: left;*/
+    /*border: 1px solid #789;*/
+    /*background: #fff;*/
+/*}*/
+/*.text-block p:nth-child(2) {*/
+    /*text-align: center;*/
+    /*border: 1px solid #789;*/
+    /*background: #fff;*/
+/*}*/
+/*.text-block p:nth-child(3) {*/
+    /*text-align: right;*/
+    /*border: 1px solid #789;*/
+    /*background: #fff;*/
+/*}*/
+/*.text-block p:nth-child(4) {*/
+    /*text-align: justify;*/
+    /*border: 1px solid #789;*/
+    /*background: #fff;*/
+/*}*/
+/*.text-block p:nth-child(5) {*/
+    /*text-align: inherit;*/
+    /*border: 1px solid #789;*/
+    /*background: #fff;*/
+/*}*/
+
+/* TEXT-INDENT ********************************************************/
+/*.first {*/
+    /*text-indent: 50px;*/
+/*}*/
+/*.second {*/
+    /*text-indent: 5%;*/
+/*}*/
+
+
+/* LINE-HEIGHT *********************************************************/
+/*.line {*/
+    /*background-color: coral;*/
+    /*color: white;*/
+    /*font-size: 20px;*/
+    /*line-height: 50px;*/
+    /*text-align: center;*/
+/*}*/
+
+/*ul li{*/
+    /*display: inline-block;*/
+    /*width: 100px;*/
+    /*height: 30px;*/
+    /*background-color: #0B1B48;*/
+    /*color: white;*/
+    /*text-align: center;*/
+    /*line-height: 30px;*/
+/*}*/
+
+/* VERTICAL-ALIGN *****************************************************/
+/*.text {*/
+    /*font-size: 24px;*/
+/*}*/
+/*.text .sub {*/
+    /*vertical-align: sub;*/
+    /*font-size: 24px;*/
+    /*color: red;*/
+/*}*/
+
+/* Блоки выравненные по центру */
+/*.img-block {*/
+    /*text-align: center;*/
+    /*display: table-cell;*/
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+    /*vertical-align: middle;*/
+/*}*/
+
+/*body {*/
+    /*margin: 0;*/
+/*}*/
+
+
+/* WORD-SPACING *****************************************************/
+/*.wspacing {*/
+    /*word-spacing: 20px;*/
+    /*!*letter-spacing: 20px;*!*/
+/*}*/
+
+/* TEXT-TRANSFORM ***************************************************/
+/*.tt {*/
+    /*!*text-transform: uppercase;*!*/
+    /*!*text-transform: lowercase;*!*/
+    /*text-transform: capitalize;*/
+/*}*/
+
+/* UNICOD-BIDI & DIRECTION ****************/
+/*.text-dir2 {*/
+    /*direction: rtl;*/
+    /*unicode-bidi: bidi-override;*/
+/*}*/
+
+/* Scroll с левой стороны */
+/*.scroll {*/
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*border: 1px solid #789;*/
+    /*overflow-y: scroll;*/
+    /*text-align: left;*/
+/*}*/
+
+
+/* TEXT-DECORATION ***************************************************/
+/*h3 {*/
+    /*!*text-decoration: underline;*!*/
+    /*!*text-decoration: overline;*!*/
+    /*text-decoration: line-through;*/
+/*}*/
+
+/*.first {*/
+    /*width: 250px;*/
+    /*line-height: 40px;*/
+    /*background: #fff;*/
+    /*color: #789;*/
+/*}*/
+
+/*.first:first-line {*/
+    /*color: coral;*/
+    /*font-weight: bold;*/
+/*}*/
+
+/*.first:first-letter {*/
+    /*background: coral;*/
+    /*color: #fff;*/
+    /*font-weight: bold;*/
+    /*padding: 5px 10px;*/
+    /*margin-right: 10px;*/
+/*}*/
+
+/* FONT *****************************************************************/
+/*font: font-style font-variant font-weight font-size/line-height font-family*/
+/*.font {*/
+    /*!*font-family: Arial, Verdana, Tahoma, sans-serif;*!*/
+    /*!*font-style: italic;*!*/
+    /*!*font-variant: all-small-caps;*!*/
+    /*!*font-variant: small-caps;*!*/
+    /*!*font-size: 36px;*!*/
+    /*!*font-weight: bold;*!*/
+    /*color: #9FC2D5;*/
+    /*!*color: rgb(7, 255, 190);*!*/
+    /*!*color: rgba(255, 91, 12, 0.4);*!*/
+    /*!*color: coral;*!*/
+    /*font: small-caps bold 22px Arial, Verdana, Tahoma, sans-serif;*/
+/*}*/

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #606d7b;
+    margin: 0;
+}
+
+/* COLUMNS ************************************************************/
+/*.section {*/
+    /*color: green;*/
+    /*background: #eee;*/
+    /*padding: 20px;*/
+    /*column-count: 3; !* Колличество колонок *!*/
+    /*column-width: 300px; !* Ширина колонок *!*/
+    /*column-gap: 50px;  !* Ширина путого пространства между колонками *!*/
+    /*!*column-rule-style: dashed; !*Стиль разделительной линии *!*!*/
+    /*!*column-rule-width: 10px; !*Ширина разделительной линии*!*!*/
+    /*!*column-rule-color: coral; !*Цвет разделительной линии*!*!*/
+    /*column-rule: double 10px coral;*/
+/*}*/
+
+/*img {*/
+    /*width: 100%;*/
+/*}*/
+
+/*h2 {*/
+    /*border: 1px solid coral;*/
+    /*!*-webkit-column-span: 3;*!*/
+    /*column-span: 3; !*Позиционирование элемента на несколько колонок *!*/
+/*}*/
+
+
+
+/* 3D-Transform ********************************************************/
+/* ul {
+    margin: 50px;
+    list-style-type: none;
+    text-align: center;
+    border: 2px solid coral;
+    perspective: 300px;
+    /* !*perspective-origin: center center;*!
+    !*perspective-origin: bottom right;*!
+    !*perspective-origin: top left;*! */
+/* }
+li { 
+       display: inline-block;
+    width: 250px;
+    height: 150px;
+    color: #fff;
+    background: #789;
+    animation: myanim 2s linear infinite;
+    transition: all 1s;
+} */
+
+/* ul:hover > li {
+    transform: rotateX(180deg);
+    /* !*backface-visibility: hidden;*! */
+/* }  */
+
+/*@keyframes myanim {*/
+    /*from {*/
+        /*transform: rotateX(0deg);*/
+    /*}*/
+    /*to {*/
+        /*transform: rotateX(360deg);*/
+    /*}*/
+/*}*/
+
+
+/*ul:hover > li {*/
+    /*!*transform: translate3d(50px, 100px, -50px);*!*/
+    /*!*transform: translate3d(50px, 100px, -50px);*!*/
+    /*!*transform: translateZ(50px);*!*/
+    /*!*transform: translateZ(-50px);*!*/
+/*}*/
+
+
+
+/* Filters *****************************************************************/
+.img-block {
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    cursor: pointer;
+}
+img {
+    width: 100%;
+    height: 100%;
+    transition: all .3s;
+}
+
+.img-block:hover > img {
+    /*opacity: .5;*/
+    /*filter: opacity(30%);*/
+
+    /*filter: blur(5px);*/
+
+    /*filter: brightness(50%);*/
+    /*filter: brightness(.5);*/
+
+    /*filter: contrast(30%);*/
+    /*filter: contrast(.2);*/
+
+    /*filter: drop-shadow(5px 5px 15px #000);*/
+
+    /*filter: grayscale(1);*/
+    /*filter: grayscale(70%);*/
+
+    /*filter: hue-rotate(300deg);*/
+
+    /*filter: saturate(300%);*/
+
+    /*filter: sepia(150%);*/
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid #789;
+}
+.box:hover {
+    filter: drop-shadow(5px 5px 2px #8c8c8c);
+}

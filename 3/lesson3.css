@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    /*background: #eee;*/
+}
+
+/* LINKS CURSOR ********************************************************/
+/*a:link {
+    color: #ff21a0;
+    cursor: pointer;
+}
+a:visited {
+    color: #3cfff4;
+    cursor: pointer;
+}
+a:hover {
+    color: coral;
+    cursor: pointer;
+}
+a:active {
+    color: green;
+    cursor: pointer;
+}*/
+
+/*.sortable > li {
+    list-style-type: none;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    margin-bottom: 2px;
+}
+.sortable li:nth-child(1) {
+    cursor: no-drop;
+    background: red;
+
+}
+.sortable li:nth-child(2) {
+    cursor: zoom-in;
+    background: #789;
+
+}
+.sortable li:nth-child(3) {
+    cursor: move;
+    background: blue;
+}
+*/
+
+
+/* ТАБЛИЦЫ */
+/*caption {
+    text-align: right;
+}
+table {
+    border: 5px double #ccc;
+    border-collapse: collapse;
+    width: 800px;
+    text-transform: uppercase;
+}
+th, td {
+    vertical-align: middle;
+    height: 45px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    border: 2px dashed #ccc;
+    padding: 5px 10px;
+}
+*/
+/*table {
+    border: 1px solid #789;
+    border-collapse: collapse;
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 14px;
+}
+caption {
+    caption-side: top;
+    text-align: right;
+}
+th {
+    border-bottom: 1px dashed #789;
+}
+th, td {
+    color: #789;
+    padding: 5px;
+}
+tr:hover {
+    background: #eee;
+    cursor: pointer;
+}
+*/
+
+
+
+
+
+/* СПИСКИ *************************************************************/
+/*ul li {
+    list-style-type: lower-latin;
+    display: inline-block;
+    list-style-type: none;
+    background-color: #bd4d23;
+    list-style-position: inside;
+    list-style-image: url("../images/check.png");
+}
+*/
+/*ul li{
+    background-color: green;
+}
+
+ul li {
+    list-style-type: none;
+    border: 1px solid red;
+    padding: 3px 25px;
+    background-image: url(../images/OK.png);
+    background-repeat: no-repeat;
+    background-position: 2px 8px;
+}*/
+
+/*div{
+    background-color: #9c4727;
+    width:1000px;
+    height:150px;
+    text-align: center;
+}
+*/
+
+/* ФОН *****************************************************************/
+/*.bg {*/
+    /*width: 400px;*/
+    /*height: 300px;*/
+    /*margin: 0 auto;*/
+    /*color: #7dff43;*/
+    /*border: 10px solid rgba(255, 127, 80, 0.1);*/
+    /*!*background-color: #ff7f50;*!*/
+    /*background-color: rgba(255, 123, 84, 0.46);*/
+    /*background-image: url("../images/bg2.png");*/
+    /*!*background-repeat: no-repeat;*!*/
+    /*background-repeat: repeat-x;*/
+    /*background-position: center;*/
+/*}*/
+/**/
+/*body {
+     background-image: url("../images/bg.png");
+     background-attachment: fixed;
+     height: 1500px;
+ }*/
+
+
+/*.bg2 {
+    border: 10px dashed rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;*/
+
+    /*!*определяет область ПОЗИЦИОНИРОВАНИЯ фонового рисунка.   content-box, padding-box, border-box*!*/
+    /*background-image: url("../images/css3.png");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-origin: padding-box;
+    background-origin: border-box;*/
+
+     /*!* ФОН ИЛИ ЦВЕТ РАЗМЕЩАЮТСЯ СОГЛАСНО ПАРАМЕТРАМ, КАРТИНКА ИЗМЕНЯЕТСЯ *!*/
+     /*!*border-box, padding-box, content-box *!*/
+    /*background-image: url("../images/css3.png");
+    background-repeat: no-repeat;
+
+    background-clip: border-box;
+    background-clip: content-box;
+    background-clip: padding-box;*/
+/*
+    background-image: url("../images/css3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    background-size: 100% 100%;*/
+/*}*/
+
+
+/* Content ***************************************************************/
+/*a {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a::before {
+    content: '';
+    border: 1px solid #789;
+    background: #789;
+    color: #fff;
+    margin-left: 10px;
+    padding: 2px;
+    font-weight: 100;
+    font-size: 10px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+*/
+
+
+/* Всплывающая подсказка */
+/*.img-block {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #789;
+    position: relative;
+    margin: 100px;
+    cursor: pointer;
+}
+.modal {
+    display: block;
+    width: 200px;
+    height: 30px;
+    background: #789;
+    color: #fff;
+    position: absolute;
+    top: -50px;
+    left: -2px;
+    border: 1px solid #789;
+    border-radius: 5px;
+    line-height: 30px;
+    font-size: 13px;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px 5px #fff;
+    transition: all .4s;
+    opacity: 0;
+}
+.modal::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid #789;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: relative;
+    bottom: -35px;
+    left: 90px;
+}
+.img-block:hover .modal {
+    opacity: 1;
+}
+*/
+
+
+/* TEXT-OVERFLOW *****************************************************/
+/*p {
+    width: 347px;
+    height: 75px;
+    border: 1px solid #789;
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;*/
+     /*!* запрещаем пробелы *!*/
+    /*text-overflow: ellipsis;*/
+     /*!* Текст обрезается и к концу строки добавляется многоточие. *!*/
+/*}*/
+
+
+
+/* @font-face ***********************************************************/
+/*@font-face {
+    font-family: AlexBrush-Regular;
+    src: url('../fonts/AlexBrush-Regular.ttf');
+}
+
+h3 {
+     font-family: AlexBrush-Regular;
+ }
+
+@font-face {
+    font-family: 'nosiferregular';
+    src: url('../fonts/nosifer-regular-webfont.eot');
+    src: url('../fonts/nosifer-regular-webfont.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/nosifer-regular-webfont.woff2') format('woff2'),
+            url('../fonts/nosifer-regular-webfont.woff') format('woff');
+}
+h1 {
+    font-size: 50px;
+    font-family: 'nosiferregular', cursive;
+}
+
+@font-face {
+    font-family: 'raleway_thin-webfont';
+    src: url("../fonts/raleway_thin-webfont.eot");
+    src: url("../fonts/raleway_thin-webfont.ttf") format('truetype'),
+           url("../fonts/raleway_thin-webfont.woff") format('woff');
+}
+h2 {
+    font-family: 'raleway_thin-webfont', Arial, sans-serif;
+    font-size: 50px;
+}
+*/
+
+
+
+/* SPRITES ***************************************************************/
+/*.sprite {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sprite li {
+    display: inline-block;
+    width: 124px;
+    height: 32px;
+    cursor: pointer;
+    background: url(../images/css-sprite.jpg) no-repeat -67px -48px;
+    transition: all 1s;
+}
+.sprite .btn1:hover {
+    background-position: -67px -80px;
+}
+.sprite .btn1:active {
+    background-position: -67px -112px;
+}
+.sprite .btn2 {
+    background-position: -197px -48px;
+}
+.sprite .btn2:hover {
+    background-position: -197px -80px;
+}
+.sprite .btn2:active {
+    background-position: -197px -112px;
+}
+.sprite .btn3 {
+    background-position: -67px -150px;
+}
+.sprite .btn3:hover {
+    background-position: -67px -182px;
+}
+.sprite .btn3:active {
+    background-position: -67px -214px;
+}
+.sprite .btn4 {
+    background-position:  -197px -150px;
+}
+.sprite .btn4:hover {
+    background-position:  -197px -182px;
+}
+.sprite .btn4:active {
+    background-position:  -197px -214px;
+}
+*/
+
+/* Modal */
+/*.img-block {
+    width: 300px;
+    height: 300px;
+    margin: 150px auto;
+    border: 5px solid #789;
+    cursor: pointer;
+    position: relative;
+}
+.img-block::before {
+    content: '';
+    display: inline-block;
+    background-image: url(../images/css3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    border: 5px solid #789;
+    position: absolute;
+    top: -70px;
+    right: -70px;
+    transition: all .5s;
+    opacity: 0;
+}
+.img-block:hover::before {
+    top: -135px;
+    right: -135px;
+    opacity: 1;
+}*/
+
+/*div{*/
+/*    text-align: center;
+    margin-top: 100px;
+}
+
+ul li{
+    display: inline-block;
+    background-color: #bd4d23;
+    color: white;
+    cursor: pointer;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    /*text-align: center;*/
+/*    margin: 10px;
+}
+
+ul li:hover{
+    color: #65ff16;
+}*/
